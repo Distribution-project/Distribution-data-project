@@ -6,11 +6,6 @@
 **기간** : 2023.08.18 ~ 2023.09.05
   <br>
   <br>
-# 📚 Contents
-
-
-<br>
-<br>
 
 # 🙋🏻‍♀️ 팀 소개
 |[공유경](https://github.com/yOukyonG)|[김수정](https://github.com/sugenre)|[민수민](https://github.com/Su-Min57)|[박채나](https://github.com/chaena7)|
@@ -60,8 +55,9 @@
 
 <h3> EDA </h3>
 
-![initial](https://github.com/Distribution-project/Distribution-data-project/assets/138547408/ad36decd-1d1c-462f-a00c-11c04ecbb4dc)
-![initial](https://github.com/Distribution-project/Distribution-data-project/assets/138547408/af4805f1-eadc-4d92-bc2d-551add61eca2)
+<img src="https://github.com/Distribution-project/Distribution-data-project/assets/138547408/5bd72a3c-fcc0-4509-8725-283a8e5fdf43" width="80%" height="80%">
+<img src="https://github.com/Distribution-project/Distribution-data-project/assets/138547408/463e899d-d83f-4da5-bdb6-5d3cffdc9b58" width="80%" height="80%">
+
 - 일별 판매수량과 주별 판매수량 모두 7-8월에 급증하는 것 확인
 - 일별 판매수량은 변동성이 크기에 주별 판매수량으로 분석을 진행하는 것이 더 유의미하다고 판단
 
@@ -89,8 +85,8 @@
 
   **내부 변수**
   <br>
+<img src="https://github.com/Distribution-project/Distribution-data-project/assets/138547408/8e7426a9-6077-4227-854f-34b988867ab6" width="80%" height="80%">
 
-![initial](https://github.com/Distribution-project/Distribution-data-project/assets/138547408/8e7426a9-6077-4227-854f-34b988867ab6)
   - 내부 변수의 중요도는 상관분석과 Feature Importance를 이용하여 판단
 
   <br>
@@ -115,7 +111,7 @@
 
 <h3> Trend(추세) 변수 </h3>
 
-![initial](https://github.com/Distribution-project/Distribution-data-project/assets/138547408/283eebfa-263a-4625-bc61-bc787faa83aa)
+<img src="https://github.com/Distribution-project/Distribution-data-project/assets/138547408/283eebfa-263a-4625-bc61-bc787faa83aa" width="80%" height="80%">
 
 - 예측해야 하는 6개월의 기간에 대한 실제 판매수량 정보를 모르기 때문에, 시계열 예측 모델에 변수로 사용되는 판매 수량의 이동 평균이나 lag값 등을 사용하기에는 적합하지 않다고 판단
 - 따라서, 상품별 과거의 판매수량을 바탕으로 예측이 필요한 기간의 추세를 다항 회귀선을 통해 예측하여 모델이 함께 반영하도록 함
@@ -126,6 +122,7 @@
 <br>
 
 # 모델
+
 ![initial](https://github.com/Distribution-project/Distribution-data-project/assets/138547408/1d0c8c12-3e78-47c3-979e-9f8139a8b86e)
 ![initial](https://github.com/Distribution-project/Distribution-data-project/assets/138547408/2b894fc3-0c0d-442d-aafe-012fbd33e431)
 ![initial](https://github.com/Distribution-project/Distribution-data-project/assets/138547408/ffd4c51c-3534-4ebc-8203-120e6ce0cfae)
@@ -134,9 +131,12 @@
 <br>
 (추가적으로 RMSE를 성능지표로 사용했으며, 각 품목 별로 추세를 반영하는 정도를 확인)
 
+<br>
+
 <h3> 추가 조정 </h3>
 
 **하이퍼 파라미터 조정**
+<br>
 최적의 예측 모델을 도출하기 위해, Pycaret 라이브러리를 활용하여 하이터 파라미터를 조정
 -> 조정한 결과, Random Forest의 RMSE 값이 74에서 65로 개선됨
 
