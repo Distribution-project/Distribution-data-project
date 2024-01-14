@@ -35,6 +35,10 @@
 
 <h3> 제공 데이터 </h3>
 
+ <p align="center">
+<img src="https://github.com/Distribution-project/Distribution-data-project/assets/138547408/693ff78e-493f-491b-915b-1e72d989a8ff" width="60%" height="60%">
+ </p>
+
 ```
 - 상품 데이터
 - 결제 데이터
@@ -130,7 +134,7 @@
 <br>
 <br>
 
-# 모델
+# 📺 모델
 
 <p align="center">
 <img src="https://github.com/Distribution-project/Distribution-data-project/assets/138547408/1d0c8c12-3e78-47c3-979e-9f8139a8b86e" width="80%" height="80%">
@@ -157,7 +161,14 @@
 <br>
 <br>
 
-# 활용 방안
+# 🌱 활용 방안
  - 풀필먼트 센터 내 최적화된 작업 인력 확보 및 비즈니스 의사 결정을 통해 안정적인 상품 출고 가능
  - 오차 개선을 통해 물류센터 내 다양한 운영 비용 절감 가능
  - 고객사 별 주문량 예측 서비스를 마케팅/영업 신규 상품 개발 및 프로모션에도 활용 가능
+
+<br>
+<br>
+
+# 🌈 상세보기
+
+[자세히 보기(ppt)](https://github.com/Distribution-project/Distribution-data-project/blob/main/(%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81%20%EB%B6%80%EB%AC%B8)%20%EB%B6%84%EC%84%9D%20%EA%B2%B0%EA%B3%BC%20%EB%B3%B4%EA%B3%A0%EC%84%9C_%EC%9C%A0%ED%86%B5%20%EA%BF%88%EB%82%98%EB%AC%B4.pdf) 
