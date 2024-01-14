@@ -54,10 +54,11 @@
 <br>
 
 <h3> EDA </h3>
-
+  <p align="center">
 <img src="https://github.com/Distribution-project/Distribution-data-project/assets/138547408/5bd72a3c-fcc0-4509-8725-283a8e5fdf43" width="80%" height="80%">
 <img src="https://github.com/Distribution-project/Distribution-data-project/assets/138547408/463e899d-d83f-4da5-bdb6-5d3cffdc9b58" width="80%" height="80%">
-
+  </p>
+  
 - 일별 판매수량과 주별 판매수량 모두 7-8월에 급증하는 것 확인
 - 일별 판매수량은 변동성이 크기에 주별 판매수량으로 분석을 진행하는 것이 더 유의미하다고 판단
 
@@ -85,16 +86,22 @@
 
   **내부 변수**
   <br>
-<img src="https://github.com/Distribution-project/Distribution-data-project/assets/138547408/8e7426a9-6077-4227-854f-34b988867ab6" width="80%" height="80%">
 
+  <p align="center">  
+<img src="https://github.com/Distribution-project/Distribution-data-project/assets/138547408/8e7426a9-6077-4227-854f-34b988867ab6" width="80%" height="80%">
+  </p>
+  
   - 내부 변수의 중요도는 상관분석과 Feature Importance를 이용하여 판단
 
   <br>
   <br>
 
   **외부 변수**
+
+  <p align="center">
+    <img src="https://github.com/Distribution-project/Distribution-data-project/assets/138547408/121f4acf-f551-46b3-8fb2-49d047d4e652" width="60%" height="60%">
+  </p>
   
-  ![initial](https://github.com/Distribution-project/Distribution-data-project/assets/138547408/121f4acf-f551-46b3-8fb2-49d047d4e652)
   - 유통 판매량은 다양한 요인에 영향을 받기 때문에 유통 과정의 이해관계자인 소비자, 생산자, 소매업체와 고나련된 지표를 외부 변수로 사용
   - 해당 데이터의 탐색 결과를 반영하여 경북지역 데이터를 수집
   - 주가에 지연값(lag)를 추가하여 예측 상품과의 상관분석을 진행한 후 가장 높은 상관관계를 보인 3주로 lag 값 설정
@@ -111,7 +118,9 @@
 
 <h3> Trend(추세) 변수 </h3>
 
+<p align="center">
 <img src="https://github.com/Distribution-project/Distribution-data-project/assets/138547408/283eebfa-263a-4625-bc61-bc787faa83aa" width="80%" height="80%">
+</p>
 
 - 예측해야 하는 6개월의 기간에 대한 실제 판매수량 정보를 모르기 때문에, 시계열 예측 모델에 변수로 사용되는 판매 수량의 이동 평균이나 lag값 등을 사용하기에는 적합하지 않다고 판단
 - 따라서, 상품별 과거의 판매수량을 바탕으로 예측이 필요한 기간의 추세를 다항 회귀선을 통해 예측하여 모델이 함께 반영하도록 함
@@ -123,9 +132,14 @@
 
 # 모델
 
-![initial](https://github.com/Distribution-project/Distribution-data-project/assets/138547408/1d0c8c12-3e78-47c3-979e-9f8139a8b86e)
-![initial](https://github.com/Distribution-project/Distribution-data-project/assets/138547408/2b894fc3-0c0d-442d-aafe-012fbd33e431)
-![initial](https://github.com/Distribution-project/Distribution-data-project/assets/138547408/ffd4c51c-3534-4ebc-8203-120e6ce0cfae)
+<p align="center">
+<img src="https://github.com/Distribution-project/Distribution-data-project/assets/138547408/1d0c8c12-3e78-47c3-979e-9f8139a8b86e" width="80%" height="80%">
+  <br>
+<img src="https://github.com/Distribution-project/Distribution-data-project/assets/138547408/2b894fc3-0c0d-442d-aafe-012fbd33e431">
+  <br>
+<img src="https://github.com/Distribution-project/Distribution-data-project/assets/138547408/ffd4c51c-3534-4ebc-8203-120e6ce0cfae" width="80%" height="80%">
+</p>
+
 
 : LGBM, Randomforest, XGboost, Gradient Boosting 4가지 모델에 대해 feature importance를 진행한 결과, 선정한 변수에 LGBM과 Random Forest Model이 가장 적합
 <br>
